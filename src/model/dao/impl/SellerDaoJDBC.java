@@ -26,7 +26,6 @@ public class SellerDaoJDBC implements SellerDao {
 
 	@Override
 	public void insert(Seller obj) {
-		// TODO Auto-generated method stub
 		
 		PreparedStatement st = null;
 		try {
